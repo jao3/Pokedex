@@ -1,5 +1,5 @@
 import Head from "next/head";
-import HomePage from "./home";
+import HomePage from "../components/home";
 
 interface PokemonProps {
   id: string;

@@ -1,8 +1,8 @@
 import { CardContainer, Container } from "./styles";
 import React, { useState, useCallback, useEffect, useMemo } from "react";
 import api from "@/services/api";
-import Search from "../../components/search";
-import Cards from "../../components/cardPokemon";
+import Search from "../search";
+import Cards from "../cardPokemon";
 import Pagination from "@/components/pagination";
 import Modal from "@/components/modal";
 
