@@ -32,7 +32,7 @@ const Pagination: React.FC<PaginationProps> = ({
   }, [currentPage, pages]);
 
   const canGoBack = currentPage > 1;
-  const canGoFoward = currentPage < pages;
+  const canGoFoward = currentPage < pages!;
 
   return (
     <PaginationContainer>
